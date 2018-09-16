@@ -1,7 +1,7 @@
 # StayingAlive
 GWAS via Cox proportional hazards model
 
-#How to run
+# How to run
 
 ```
 python stayinalive.py run_coxph \
@@ -13,6 +13,6 @@ python stayinalive.py run_coxph \
 --event-column event_status \
 --time-column event_time \
 --chrom 6 \ # optional
---start 32590771-500 \  # optional
---end 32590771+500 # optional
+--start 31000000 \  # optional
+--end 32000000 # optional
 ```
